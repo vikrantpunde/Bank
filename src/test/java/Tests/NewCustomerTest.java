@@ -74,12 +74,10 @@ public class NewCustomerTest extends BaseClass{
 		crmObj.clickContinue();
 		}
 		
-		
 		hpObj.logout();
 
 		Assert.assertEquals(s, false);
-		
-		
+				
 	}
 	
 	public boolean isAlertPresent() 
