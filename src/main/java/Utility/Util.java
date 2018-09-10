@@ -1,7 +1,9 @@
 package Utility;
 
 public class Util {
-	public static final String CHROME_PATH = System.getProperty("user.dir")+"\\DriverExe\\chromedriver.exe";
+	public static final String CHROME_PATH = System.getProperty("user.dir")+"\\chromedriver.exe";
+	//public static final String CHROME_PATH = "D:\\chromedriver.exe";
+	
 	public static final String BASE_URL = "http://www.demo.guru99.com/V4/";
 	public static String customerID;
 	public static final int WAIT_TIME = 30; 

@@ -3,11 +3,28 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+      <class name="ListenersClass.TestListner">
+        <methods>
+          <include name="setupChromeDriver"/>
+        </methods>
+      </class> <!-- ListenersClass.TestListner -->
+      <class name="Tests.DepositTest">
+        <methods>
+          <include name="successfulDeposit"/>
+        </methods>
+      </class> <!-- Tests.DepositTest -->
+      <class name="Tests.LoginTest">
+        <methods>
+          <include name="invalidUsernameValidPassword"/>
+          <include name="invalidUsernamePassword"/>
+          <include name="validUsernameInvalidPassword"/>
+          <include name="validUsernamePassword"/>
+        </methods>
+      </class> <!-- Tests.LoginTest -->
       <class name="Tests.NewCustomerTest">
         <methods>
           <include name="successfulCustomerAdd"/>
           <include name="runDriver"/>
-          <include name="setupChromeDriver"/>
         </methods>
       </class> <!-- Tests.NewCustomerTest -->
     </classes>
