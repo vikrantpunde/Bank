@@ -2,6 +2,7 @@ package DriverInstance;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -17,6 +18,7 @@ public class BaseClass {
 
 	 @BeforeSuite
 	  public void setupChromeDriver() {
+		 
 		 System.setProperty("webdriver.chrome.driver",Util.CHROME_PATH);
 	  }
 	 
@@ -24,7 +26,8 @@ public class BaseClass {
      @BeforeClass
      public void runDriver()
      {
-    	
+    	 ChromeOptions chromeOptions= new ChromeOptions();
+    	 chromeOptions.setBinary("C:\\Users\\asus pc\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(Util.BASE_URL);
