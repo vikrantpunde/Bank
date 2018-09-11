@@ -36,7 +36,8 @@ public class DepositTest extends BaseClass{
 	
 	@Test
 	public void successfulDeposit(){
-		
+	
+/*		
 		lp=new LoginPage(BaseClass.driver);
 		lp.enterUsername(Util.USER_NAME);
 		lp.enterPassword(Util.PASSWD);
@@ -64,8 +65,10 @@ public class DepositTest extends BaseClass{
 		driver.switchTo().alert().accept();
 		}
 		Assert.assertEquals(s,false);
-		
+	*/		
 	}
+
+
 	
 	public boolean isAlertPresent() 
 	  { 
@@ -79,4 +82,6 @@ public class DepositTest extends BaseClass{
 	          return false; 
 	      }   // catch 
 	  }   
+
+
 }
