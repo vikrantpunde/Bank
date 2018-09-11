@@ -75,6 +75,10 @@ public class NewCustomerTest extends BaseClass{
 		}
 		
 		hpObj.logout();
+		if(isAlertPresent()==true){
+			driver.switchTo().alert().accept();
+			}
+			Assert.assertEquals(s,false);
 
 		Assert.assertEquals(s, false);
 				
