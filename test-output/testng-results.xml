@@ -2,38 +2,38 @@
 <testng-results skipped="6" failed="0" total="6" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11885" started-at="2018-09-10T16:05:45Z" finished-at="2018-09-10T16:05:57Z">
+  <suite name="Default suite" duration-ms="620" started-at="2018-09-11T05:03:47Z" finished-at="2018-09-11T05:03:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11885" started-at="2018-09-10T16:05:45Z" finished-at="2018-09-10T16:05:57Z">
+    <test name="Default test" duration-ms="620" started-at="2018-09-11T05:03:47Z" finished-at="2018-09-11T05:03:48Z">
       <class name="Tests.DepositTest">
-        <test-method status="SKIP" signature="runDriver()[pri:0, instance:Tests.DepositTest@5bc79255]" name="runDriver" is-config="true" duration-ms="0" started-at="2018-09-10T21:35:57Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="runDriver()[pri:0, instance:Tests.DepositTest@5bc79255]" name="runDriver" is-config="true" duration-ms="0" started-at="2018-09-11T10:33:48Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runDriver -->
-        <test-method status="SKIP" signature="successfulDeposit()[pri:0, instance:Tests.DepositTest@5bc79255]" name="successfulDeposit" duration-ms="1" started-at="2018-09-10T21:35:57Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="successfulDeposit()[pri:0, instance:Tests.DepositTest@5bc79255]" name="successfulDeposit" duration-ms="3" started-at="2018-09-11T10:33:48Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulDeposit -->
-        <test-method status="SKIP" signature="close()[pri:0, instance:Tests.DepositTest@5bc79255]" name="close" is-config="true" duration-ms="0" started-at="2018-09-10T21:35:57Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="close()[pri:0, instance:Tests.DepositTest@5bc79255]" name="close" is-config="true" duration-ms="0" started-at="2018-09-11T10:33:48Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Tests.DepositTest -->
       <class name="ListenersClass.TestListner">
-        <test-method status="PASS" signature="setupChromeDriver()[pri:0, instance:ListenersClass.TestListner@7b49cea0]" name="setupChromeDriver" is-config="true" duration-ms="20" started-at="2018-09-10T21:35:45Z" finished-at="2018-09-10T21:35:45Z">
+        <test-method status="PASS" signature="setupChromeDriver()[pri:0, instance:ListenersClass.TestListner@7b49cea0]" name="setupChromeDriver" is-config="true" duration-ms="21" started-at="2018-09-11T10:33:47Z" finished-at="2018-09-11T10:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupChromeDriver -->
       </class> <!-- ListenersClass.TestListner -->
       <class name="Tests.NewCustomerTest">
-        <test-method status="FAIL" signature="runDriver()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="runDriver" is-config="true" duration-ms="0" started-at="2018-09-10T21:35:45Z" finished-at="2018-09-10T21:35:45Z">
+        <test-method status="FAIL" signature="runDriver()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="runDriver" is-config="true" duration-ms="0" started-at="2018-09-11T10:33:47Z" finished-at="2018-09-11T10:33:47Z">
           <exception class="java.lang.IllegalStateException">
             <message>
-              <![CDATA[The driver executable does not exist: D:\selenium_workplace\bank\ChromeExe\chromedriver.exe]]>
+              <![CDATA[The driver executable does not exist: D:\selenium_workplace\bank\chromedriver.exe]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\selenium_workplace\bank\ChromeExe\chromedriver.exe
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\selenium_workplace\bank\chromedriver.exe
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
 	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
 	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
@@ -73,41 +73,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runDriver -->
-        <test-method status="SKIP" signature="successfulCustomerAdd()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="successfulCustomerAdd" duration-ms="11093" started-at="2018-09-10T21:35:46Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="successfulCustomerAdd()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="successfulCustomerAdd" duration-ms="449" started-at="2018-09-11T10:33:47Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulCustomerAdd -->
-        <test-method status="SKIP" signature="close()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="close" is-config="true" duration-ms="0" started-at="2018-09-10T21:35:57Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="close()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="close" is-config="true" duration-ms="0" started-at="2018-09-11T10:33:48Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Tests.NewCustomerTest -->
       <class name="Tests.LoginTest">
-        <test-method status="SKIP" signature="runDriver()[pri:0, instance:Tests.LoginTest@23e028a9]" name="runDriver" is-config="true" duration-ms="0" started-at="2018-09-10T21:35:57Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="runDriver()[pri:0, instance:Tests.LoginTest@23e028a9]" name="runDriver" is-config="true" duration-ms="0" started-at="2018-09-11T10:33:48Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runDriver -->
-        <test-method status="SKIP" signature="setup()[pri:0, instance:Tests.LoginTest@23e028a9]" name="setup" is-config="true" duration-ms="0" started-at="2018-09-10T21:35:57Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:Tests.LoginTest@23e028a9]" name="setup" is-config="true" duration-ms="0" started-at="2018-09-11T10:33:48Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="invalidUsernamePassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="invalidUsernamePassword" duration-ms="4" started-at="2018-09-10T21:35:57Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="invalidUsernamePassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="invalidUsernamePassword" duration-ms="10" started-at="2018-09-11T10:33:48Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernamePassword -->
-        <test-method status="SKIP" signature="invalidUsernameValidPassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="invalidUsernameValidPassword" duration-ms="2" started-at="2018-09-10T21:35:57Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="invalidUsernameValidPassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="invalidUsernameValidPassword" duration-ms="2" started-at="2018-09-11T10:33:48Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameValidPassword -->
-        <test-method status="SKIP" signature="validUsernameInvalidPassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="validUsernameInvalidPassword" duration-ms="2" started-at="2018-09-10T21:35:57Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="validUsernameInvalidPassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="validUsernameInvalidPassword" duration-ms="2" started-at="2018-09-11T10:33:48Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameInvalidPassword -->
-        <test-method status="SKIP" signature="validUsernamePassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="validUsernamePassword" duration-ms="2" started-at="2018-09-10T21:35:57Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="validUsernamePassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="validUsernamePassword" duration-ms="2" started-at="2018-09-11T10:33:48Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernamePassword -->
-        <test-method status="SKIP" signature="close()[pri:0, instance:Tests.LoginTest@23e028a9]" name="close" is-config="true" duration-ms="0" started-at="2018-09-10T21:35:57Z" finished-at="2018-09-10T21:35:57Z">
+        <test-method status="SKIP" signature="close()[pri:0, instance:Tests.LoginTest@23e028a9]" name="close" is-config="true" duration-ms="0" started-at="2018-09-11T10:33:48Z" finished-at="2018-09-11T10:33:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
