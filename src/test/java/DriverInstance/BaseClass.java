@@ -19,15 +19,15 @@ public class BaseClass {
 	 @BeforeSuite
 	  public void setupChromeDriver() {
 		 
-		 System.setProperty("webdriver.chrome.driver",Util.CHROME_PATH);
+	//	 System.setProperty("webdriver.chrome.driver",Util.CHROME_PATH);
 	  }
 	 
 	 
      @BeforeClass
      public void runDriver()
      {
-    	 ChromeOptions chromeOptions= new ChromeOptions();
-    	 chromeOptions.setBinary("C:\\Users\\asus pc\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+    //	 ChromeOptions chromeOptions= new ChromeOptions();
+    //	 chromeOptions.setBinary("C:\\Users\\asus pc\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(Util.BASE_URL);
