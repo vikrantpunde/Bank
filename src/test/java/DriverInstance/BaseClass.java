@@ -19,7 +19,7 @@ public class BaseClass {
 	 @BeforeSuite
 	  public void setupChromeDriver() {
 		 
-	//	 System.setProperty("webdriver.chrome.driver",Util.CHROME_PATH);
+		 System.setProperty("webdriver.chrome.driver",Util.CHROME_PATH);
 	  }
 	 
 	 
