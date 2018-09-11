@@ -37,7 +37,7 @@ public class DepositTest extends BaseClass{
 	@Test(enabled=false)
 	public void successfulDeposit(){
 	
-	
+
 		lp=new LoginPage(BaseClass.driver);
 		lp.enterUsername(Util.USER_NAME);
 		lp.enterPassword(Util.PASSWD);
