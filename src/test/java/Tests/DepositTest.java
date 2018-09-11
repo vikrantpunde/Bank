@@ -34,7 +34,7 @@ public class DepositTest extends BaseClass{
 
 	
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void successfulDeposit(){
 	
 
