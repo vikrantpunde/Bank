@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="2" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="182065" started-at="2018-09-11T05:13:00Z" finished-at="2018-09-11T05:16:02Z">
+  <suite name="Default suite" duration-ms="135065" started-at="2018-09-11T06:13:44Z" finished-at="2018-09-11T06:15:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="182065" started-at="2018-09-11T05:13:00Z" finished-at="2018-09-11T05:16:02Z">
+    <test name="Default test" duration-ms="135065" started-at="2018-09-11T06:13:44Z" finished-at="2018-09-11T06:15:59Z">
       <class name="Tests.DepositTest">
-        <test-method status="PASS" signature="runDriver()[pri:0, instance:Tests.DepositTest@5bc79255]" name="runDriver" is-config="true" duration-ms="29962" started-at="2018-09-11T10:45:05Z" finished-at="2018-09-11T10:45:35Z">
+        <test-method status="PASS" signature="runDriver()[pri:0, instance:Tests.DepositTest@5bc79255]" name="runDriver" is-config="true" duration-ms="16280" started-at="2018-09-11T11:45:27Z" finished-at="2018-09-11T11:45:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runDriver -->
-        <test-method status="FAIL" signature="successfulDeposit()[pri:0, instance:Tests.DepositTest@5bc79255]" name="successfulDeposit" duration-ms="20128" started-at="2018-09-11T10:45:35Z" finished-at="2018-09-11T10:45:56Z">
+        <test-method status="FAIL" signature="successfulDeposit()[pri:0, instance:Tests.DepositTest@5bc79255]" name="successfulDeposit" duration-ms="12236" started-at="2018-09-11T11:45:43Z" finished-at="2018-09-11T11:45:55Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -54,23 +54,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulDeposit -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Tests.DepositTest@5bc79255]" name="close" is-config="true" duration-ms="417" started-at="2018-09-11T10:46:01Z" finished-at="2018-09-11T10:46:02Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:Tests.DepositTest@5bc79255]" name="close" is-config="true" duration-ms="350" started-at="2018-09-11T11:45:58Z" finished-at="2018-09-11T11:45:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Tests.DepositTest -->
       <class name="ListenersClass.TestListner">
-        <test-method status="PASS" signature="setupChromeDriver()[pri:0, instance:ListenersClass.TestListner@7b49cea0]" name="setupChromeDriver" is-config="true" duration-ms="18" started-at="2018-09-11T10:42:59Z" finished-at="2018-09-11T10:43:00Z">
+        <test-method status="PASS" signature="setupChromeDriver()[pri:0, instance:ListenersClass.TestListner@7b49cea0]" name="setupChromeDriver" is-config="true" duration-ms="12" started-at="2018-09-11T11:43:44Z" finished-at="2018-09-11T11:43:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupChromeDriver -->
       </class> <!-- ListenersClass.TestListner -->
       <class name="Tests.NewCustomerTest">
-        <test-method status="PASS" signature="runDriver()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="runDriver" is-config="true" duration-ms="31373" started-at="2018-09-11T10:43:00Z" finished-at="2018-09-11T10:43:31Z">
+        <test-method status="PASS" signature="runDriver()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="runDriver" is-config="true" duration-ms="26035" started-at="2018-09-11T11:43:44Z" finished-at="2018-09-11T11:44:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runDriver -->
-        <test-method status="FAIL" signature="successfulCustomerAdd()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="successfulCustomerAdd" duration-ms="27208" started-at="2018-09-11T10:43:31Z" finished-at="2018-09-11T10:43:58Z">
+        <test-method status="FAIL" signature="successfulCustomerAdd()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="successfulCustomerAdd" duration-ms="21895" started-at="2018-09-11T11:44:10Z" finished-at="2018-09-11T11:44:32Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -113,37 +113,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulCustomerAdd -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="close" is-config="true" duration-ms="360" started-at="2018-09-11T10:44:03Z" finished-at="2018-09-11T10:44:03Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:Tests.NewCustomerTest@3dd4520b]" name="close" is-config="true" duration-ms="2105" started-at="2018-09-11T11:44:37Z" finished-at="2018-09-11T11:44:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- Tests.NewCustomerTest -->
       <class name="Tests.LoginTest">
-        <test-method status="PASS" signature="runDriver()[pri:0, instance:Tests.LoginTest@23e028a9]" name="runDriver" is-config="true" duration-ms="27603" started-at="2018-09-11T10:44:03Z" finished-at="2018-09-11T10:44:31Z">
+        <test-method status="PASS" signature="runDriver()[pri:0, instance:Tests.LoginTest@23e028a9]" name="runDriver" is-config="true" duration-ms="20166" started-at="2018-09-11T11:44:39Z" finished-at="2018-09-11T11:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runDriver -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTest@23e028a9]" name="setup" is-config="true" duration-ms="0" started-at="2018-09-11T10:44:31Z" finished-at="2018-09-11T10:44:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTest@23e028a9]" name="setup" is-config="true" duration-ms="1" started-at="2018-09-11T11:44:59Z" finished-at="2018-09-11T11:44:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="invalidUsernamePassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="invalidUsernamePassword" duration-ms="3791" started-at="2018-09-11T10:44:31Z" finished-at="2018-09-11T10:44:35Z">
+        <test-method status="PASS" signature="invalidUsernamePassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="invalidUsernamePassword" duration-ms="1367" started-at="2018-09-11T11:44:59Z" finished-at="2018-09-11T11:45:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernamePassword -->
-        <test-method status="PASS" signature="invalidUsernameValidPassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="invalidUsernameValidPassword" duration-ms="10227" started-at="2018-09-11T10:44:35Z" finished-at="2018-09-11T10:44:45Z">
+        <test-method status="PASS" signature="invalidUsernameValidPassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="invalidUsernameValidPassword" duration-ms="7076" started-at="2018-09-11T11:45:00Z" finished-at="2018-09-11T11:45:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsernameValidPassword -->
-        <test-method status="PASS" signature="validUsernameInvalidPassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="validUsernameInvalidPassword" duration-ms="6228" started-at="2018-09-11T10:44:45Z" finished-at="2018-09-11T10:44:51Z">
+        <test-method status="PASS" signature="validUsernameInvalidPassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="validUsernameInvalidPassword" duration-ms="8044" started-at="2018-09-11T11:45:07Z" finished-at="2018-09-11T11:45:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernameInvalidPassword -->
-        <test-method status="PASS" signature="validUsernamePassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="validUsernamePassword" duration-ms="13844" started-at="2018-09-11T10:44:51Z" finished-at="2018-09-11T10:45:05Z">
+        <test-method status="PASS" signature="validUsernamePassword()[pri:0, instance:Tests.LoginTest@23e028a9]" name="validUsernamePassword" duration-ms="10850" started-at="2018-09-11T11:45:15Z" finished-at="2018-09-11T11:45:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUsernamePassword -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Tests.LoginTest@23e028a9]" name="close" is-config="true" duration-ms="406" started-at="2018-09-11T10:45:05Z" finished-at="2018-09-11T10:45:05Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:Tests.LoginTest@23e028a9]" name="close" is-config="true" duration-ms="701" started-at="2018-09-11T11:45:26Z" finished-at="2018-09-11T11:45:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

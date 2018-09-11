@@ -34,10 +34,10 @@ public class DepositTest extends BaseClass{
 
 	
 	
-	@Test
+	@Test(enabled=false)
 	public void successfulDeposit(){
 	
-/*		
+		
 		lp=new LoginPage(BaseClass.driver);
 		lp.enterUsername(Util.USER_NAME);
 		lp.enterPassword(Util.PASSWD);
@@ -65,7 +65,7 @@ public class DepositTest extends BaseClass{
 		driver.switchTo().alert().accept();
 		}
 		Assert.assertEquals(s,false);
-	*/		
+		
 	}
 
 
