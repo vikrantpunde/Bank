@@ -39,7 +39,7 @@ public class LoginTest extends BaseClass{
 	
 	
 
-  @Test
+  @Test(enabled=false)
   public void validUsernamePassword() throws Exception{
 	  
 	  obj.enterUsername(Util.USER_NAME);
@@ -51,7 +51,7 @@ public class LoginTest extends BaseClass{
   }
   
  
-  @Test
+  @Test(enabled=false)
   public void validUsernameInvalidPassword() throws Exception{
 	  String s=null;
 	  obj.enterUsername(Util.USER_NAME);
@@ -68,7 +68,7 @@ public class LoginTest extends BaseClass{
   
   
   
-  @Test
+  @Test(enabled=false)
   public void invalidUsernameValidPassword() throws Exception{
 	  String s = null;
 	  obj.enterUsername("1111");
@@ -84,7 +84,7 @@ public class LoginTest extends BaseClass{
    
   
 	
-  @Test
+  @Test(enabled=false)
   public void invalidUsernamePassword() throws Exception{
 	  String s = null;
 	  obj.enterUsername("1111");

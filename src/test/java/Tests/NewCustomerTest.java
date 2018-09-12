@@ -34,7 +34,7 @@ public class NewCustomerTest extends BaseClass{
 	WebDriverWait wait;
 	
 	
-	@Test
+	@Test(enabled=false)
 	public void successfulCustomerAdd(){
 		
 		SoftAssert soft=new SoftAssert();
@@ -78,9 +78,10 @@ public class NewCustomerTest extends BaseClass{
 		if(isAlertPresent()==true){
 			driver.switchTo().alert().accept();
 			}
-			Assert.assertEquals(s,false);
+			
+		Assert.assertEquals(s,false);
 
-		Assert.assertEquals(s, false);
+		
 				
 	}
 	
