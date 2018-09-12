@@ -7,20 +7,22 @@
         <methods>
           <include name="successfulDeposit"/>
           <include name="runDriver"/>
+          <include name="close"/>
           <include name="setupChromeDriver"/>
         </methods>
       </class> <!-- Tests.DepositTest -->
       <class name="Tests.NewCustomerTest">
         <methods>
           <include name="successfulCustomerAdd"/>
+          <include name="runDriver"/>
+          <include name="close"/>
         </methods>
       </class> <!-- Tests.NewCustomerTest -->
       <class name="Tests.LoginTest">
         <methods>
-          <include name="invalidUsernameValidPassword"/>
-          <include name="invalidUsernamePassword"/>
-          <include name="validUsernameInvalidPassword"/>
-          <include name="validUsernamePassword"/>
+          <include name="setup"/>
+          <include name="runDriver"/>
+          <include name="close"/>
         </methods>
       </class> <!-- Tests.LoginTest -->
     </classes>
