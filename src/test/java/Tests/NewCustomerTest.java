@@ -34,7 +34,7 @@ public class NewCustomerTest extends BaseClass{
 	WebDriverWait wait;
 	
 	
-	@Test(enabled=false)
+	@Test
 	public void successfulCustomerAdd(){
 		
 		SoftAssert soft=new SoftAssert();

@@ -39,7 +39,7 @@ public class LoginTest extends BaseClass{
 	
 	
 
-  @Test(enabled=false)
+  @Test
   public void validUsernamePassword() throws Exception{
 	  
 	  obj.enterUsername(Util.USER_NAME);
@@ -51,7 +51,7 @@ public class LoginTest extends BaseClass{
   }
   
  
-  @Test(enabled=false)
+  @Test
   public void validUsernameInvalidPassword() throws Exception{
 	  String s=null;
 	  obj.enterUsername(Util.USER_NAME);
@@ -68,7 +68,7 @@ public class LoginTest extends BaseClass{
   
   
   
-  @Test(enabled=false)
+  @Test
   public void invalidUsernameValidPassword() throws Exception{
 	  String s = null;
 	  obj.enterUsername("1111");
@@ -84,7 +84,7 @@ public class LoginTest extends BaseClass{
    
   
 	
-  @Test(enabled=false)
+  @Test
   public void invalidUsernamePassword() throws Exception{
 	  String s = null;
 	  obj.enterUsername("1111");
@@ -97,8 +97,7 @@ public class LoginTest extends BaseClass{
 	 }
 	  
 		  assertTrue(s.equals(Util.Login_alert_msg));
-	  
-  }
+	    }
   
   public boolean isAlertPresent() 
   { 
