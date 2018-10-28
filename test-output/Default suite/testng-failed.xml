@@ -3,16 +3,45 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ListenersClass.TestListner">
+      <class name="Tests.LoginTest">
         <methods>
-          <include name="setupChromeDriver"/>
+          <include name="setup"/>
+          <include name="runDriver"/>
+          <include name="validUsernamePassword"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- ListenersClass.TestListner -->
+      </class> <!-- Tests.LoginTest -->
+      <class name="Tests.SyngentaTest">
+        <methods>
+          <include name="selectFrLanguage"/>
+        </methods>
+      </class> <!-- Tests.SyngentaTest -->
+      <class name="Tests.ToolTipTest">
+        <methods>
+          <include name="runDriver"/>
+          <include name="verifyLinkText"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Tests.ToolTipTest -->
+      <class name="Tests.MakeMyTripTest">
+        <methods>
+          <include name="runDriver"/>
+          <include name="setup"/>
+          <include name="printCities"/>
+          <include name="clickKolkata"/>
+        </methods>
+      </class> <!-- Tests.MakeMyTripTest -->
+      <class name="Tests.NewCustomerTest">
+        <methods>
+          <include name="successfulCustomerAdd"/>
+          <include name="runDriver"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Tests.NewCustomerTest -->
       <class name="Tests.DepositTest">
         <methods>
           <include name="successfulDeposit"/>
-          <include name="runDriver"/>
-          <include name="close"/>
         </methods>
       </class> <!-- Tests.DepositTest -->
     </classes>

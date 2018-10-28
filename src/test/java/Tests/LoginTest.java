@@ -3,7 +3,7 @@ package Tests;
 import org.testng.annotations.Test;
 
 import DriverInstance.BaseClass;
-import ListenersClass.TestListner;
+
 import Pages.LoginPage;
 import Utility.Util;
 
@@ -20,7 +20,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
-@Listeners(ListenersClass.TestListner.class)
 public class LoginTest extends BaseClass{
 	
 	public WebDriver driver;
@@ -32,14 +31,9 @@ public class LoginTest extends BaseClass{
   public void setup() {
 	obj=new LoginPage(BaseClass.driver);	
 	this.driver=BaseClass.driver;
-  }
+  }	
 
-  
-		
-	
-	
-
-  @Test
+  @Test(groups={"smoke"})
   public void validUsernamePassword() throws Exception{
 	  
 	  obj.enterUsername(Util.USER_NAME);
@@ -49,9 +43,8 @@ public class LoginTest extends BaseClass{
 	  assertTrue(title.equals(Util.MGE_HP_title));
 	  
   }
-  
  
-  @Test
+  @Test(groups={"smoke"})
   public void validUsernameInvalidPassword() throws Exception{
 	  String s=null;
 	  obj.enterUsername(Util.USER_NAME);
@@ -68,7 +61,7 @@ public class LoginTest extends BaseClass{
   
   
   
-  @Test
+  @Test(groups="regr")
   public void invalidUsernameValidPassword() throws Exception{
 	  String s = null;
 	  obj.enterUsername("1111");
@@ -84,7 +77,7 @@ public class LoginTest extends BaseClass{
    
   
 	
-  @Test
+  @Test(groups={"regr","smoke"})
   public void invalidUsernamePassword() throws Exception{
 	  String s = null;
 	  obj.enterUsername("1111");

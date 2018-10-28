@@ -23,7 +23,7 @@ import Pages.HomePage;
 import Pages.LoginPage;
 import Pages.NewCustomerPage;
 import Utility.Util;
-@Listeners(ListenersClass.TestListner.class)
+
 public class NewCustomerTest extends BaseClass{
 
 	//WebDriver driver;

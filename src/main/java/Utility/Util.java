@@ -4,7 +4,12 @@ public class Util {
 	public static final String CHROME_PATH = System.getProperty("user.dir")+"\\chromedriver.exe";
 	//public static final String CHROME_PATH = "D:\\chromedriver.exe";
 	
-	public static final String BASE_URL = "http://www.demo.guru99.com/V4/";
+	public static final String BASE_URL_guru99 = "http://www.demo.guru99.com/V4/";
+	public static final String BASE_URL_guru99_tooltip = "http://demo.guru99.com/test/tooltip.html";
+	public static final String BASE_URL_makemytrip = "https://www.makemytrip.com/";
+	public static final String BASE_URL_syngenta = "https://www.syngenta.ch/";
+	
+	
 	public static String customerID;
 	public static final int WAIT_TIME = 30; 
 	

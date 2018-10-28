@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite thread-count="4" name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
     <classes>
       <class name="Tests.DepositTest">
         <methods>
@@ -21,8 +21,11 @@
       <class name="Tests.LoginTest">
         <methods>
           <include name="setup"/>
+          <include name="invalidUsernameValidPassword"/>
           <include name="runDriver"/>
-          <include name="close"/>
+          <include name="invalidUsernamePassword"/>
+          <include name="validUsernameInvalidPassword"/>
+          <include name="validUsernamePassword"/>
         </methods>
       </class> <!-- Tests.LoginTest -->
     </classes>

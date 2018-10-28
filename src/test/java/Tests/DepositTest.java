@@ -21,7 +21,7 @@ import Pages.DepositPage;
 import Pages.HomePage;
 import Pages.LoginPage;
 import Utility.Util;
-@Listeners(ListenersClass.TestListner.class)
+
 public class DepositTest extends BaseClass{
 
 	WebDriver driver;
@@ -34,7 +34,7 @@ public class DepositTest extends BaseClass{
 
 	
 	
-	@Test
+	@Test(groups="smoke")
 	public void successfulDeposit(){
 	
 

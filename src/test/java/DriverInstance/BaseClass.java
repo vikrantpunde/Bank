@@ -1,5 +1,7 @@
 package DriverInstance;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -24,24 +26,20 @@ public class BaseClass {
 	 
 	 
      @BeforeClass
-     public void runDriver()
+     public  void runDriver() throws InterruptedException
      {
     	 ChromeOptions chromeOptions= new ChromeOptions();
     	 chromeOptions.setBinary("C:\\Users\\asus pc\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
         driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
-        driver.get(Util.BASE_URL);
-        this.driver=driver;
+        driver.get(Util.BASE_URL_guru99);
+      //  this.driver=driver;
+       
      }
-
-  
-     
-
-    
      
      @AfterClass
      public void close()        
      {
-         driver.close();
+        driver.close();
      }
 }
